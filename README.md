@@ -13,5 +13,7 @@ The crawler may be consolidated into a scraper tool.
 
 The scraper tool may only scrap data to show who is in a position at the company.  It may be too hard to target c-level executives.
 
+The coders have installed bs4 to utilize beautiful soup
 
+bs4 will allow coders to use a simple scraper tool.
 
