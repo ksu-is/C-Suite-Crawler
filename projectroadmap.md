@@ -5,4 +5,9 @@
 - [x] find better scrapy/ crawler
 - [ ] Keep it all legal and virus free
 - [x] Get help from D-Tom
+- [ ] Learn how to use beautiful soup
+- [ ] take beautiful soup knowledge and learn mechanical soup
+- [ ] apply mechanical soup knowledge to scraper
+- [ ] successfully run a code
+- [ ] edit running code to make it more effective
 
