@@ -9,3 +9,9 @@ The cralwer should not violate any laws - or do anything potentially illegal.
 
 2 users are building up this program - Dan and Doc
 
+The crawler may be consolidated into a scraper tool.
+
+The scraper tool may only scrap data to show who is in a position at the company.  It may be too hard to target c-level executives.
+
+
+
