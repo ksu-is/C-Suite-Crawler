@@ -3,9 +3,9 @@
 - [x] fill in tasks on this list
 - [x] update README.md with more details
 - [x] find better scrapy/ crawler
-- [ ] Keep it all legal and virus free
+- [x] Keep it all legal and virus free
 - [x] Get help from D-Tom
-- [ ] Learn how to use beautiful soup
+- [x] Learn how to use beautiful soup
 - [ ] take beautiful soup knowledge and learn mechanical soup
 - [ ] apply mechanical soup knowledge to scraper
 - [ ] successfully run a code
