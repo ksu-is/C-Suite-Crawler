@@ -14,3 +14,4 @@ class BlogSpider(scrapy.Spider):
             yield response.follow(next_page, self.parse)
 EOF
  scrapy runspider myspider.py
+
