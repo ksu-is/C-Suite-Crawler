@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import csv
 source = requests.get('https://www.ncr.com/company/executive-leadership-team').text
+
 page = urllib2.urlopen(quote_page)
 
 soup = BeautifulSoup(source, 'lxml')
@@ -17,12 +18,12 @@ browser.open(url)
 browser.close()
 with open('simple.HTML') as HTML_file:
     soup = BeautifulSoup(HTML_file, 'lxml')
-vp_name = soup.find('div', class = 'leadership-team_wrapper_cntr_leaders-grid_leader_info_designation')
+vp_name = soup.find('div', class_ = 'leadership-team_wrapper_cntr_leaders-grid_leader_info_designation')
 print(vp_name)
 
 import csv
 from datetime import datetime
 
-with open('index.csv, 'a') as csv_file:
+with open('index.csv,'a') as csv_file:
     writer = csv.writer(csv)
     writer.writeroq([name, position, datetime.now()])
