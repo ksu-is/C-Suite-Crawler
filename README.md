@@ -18,3 +18,5 @@ The coders have installed bs4 to utilize beautiful soup
 bs4 will allow coders to use a simple scraper tool.
 
 Coders are experiencing problems with "permissions".  Possible firewalls need to be overcome.
+
+Coders are experiencing problems with syntax errors
