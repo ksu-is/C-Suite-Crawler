@@ -106,5 +106,30 @@ class CrawlSpider(Spider):
     def set_crawler(self, crawler):
         super(CrawlSpider, self).set_crawler(crawler)
         self._follow_links = crawler.settings.getbool('CRAWLSPIDER_FOLLOW_LINKS', True)
+<<<<<<< HEAD
 
         print("its python time")
+=======
+        
+        
+        
+        
+        
+        
+        
+        
+browser = mechanicalsoup.StatefulBrowser
+    soup_config={'features': 'lxml'},  # Use the lxml HTML parser
+    raise_on_404=True,
+    user_agent='MyBot/0.1: mysite.example.com/bot_info',
+)
+browser.open(url)
+# ...
+browser.close()
+from bs4 import BeautifulSoup
+import requests
+with open('simple.HTML') as HTML_file:
+    soup = BeautifulSoup(HTML_file, 'lxml')
+vp_name = soup.find('div', class = 'vp_name')
+print(vp_name)
+>>>>>>> 0d65828035f2f5af1d7f2e2b8bb86e861a6c8f07
