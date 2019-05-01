@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import csv
-source = requests.get('').text
+source = requests.get('https://www.ncr.com/company/executive-leadership-team').text
 page = urllib2.urlopen(quote_page)
 
 soup = BeautifulSoup(source, 'lxml')
