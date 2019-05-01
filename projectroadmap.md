@@ -6,8 +6,8 @@
 - [x] Keep it all legal and virus free
 - [x] Get help from D-Tom
 - [x] Learn how to use beautiful soup
-- [ ] take beautiful soup knowledge and learn mechanical soup
-- [ ] apply mechanical soup knowledge to scraper
+- [x] take beautiful soup knowledge and learn mechanical soup
+- [x] use mechanical soup knowledge for scraper
 - [ ] successfully run a code
 - [ ] edit running code to make it more effective
 
