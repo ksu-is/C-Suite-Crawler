@@ -7,8 +7,6 @@ page = urllib2.urlopen(quote_page)
 soup = BeautifulSoup(source, 'lxml')
 print(soup.pretify())
 
-for 
-
 browser = mechanicalsoup.StatefulBrowser
 soup_config={'features': 'lxml'},  # Use the lxml HTML parser
 raise_on_404=True,
@@ -28,5 +26,3 @@ from datetime import datetime
 with open('index.csv, 'a') as csv_file:
     writer = csv.writer(csv)
     writer.writeroq([name, position, datetime.now()])
-
-
