@@ -26,4 +26,4 @@ from datetime import datetime
 
 with open('index.csv') as csv_file:
     writer = csv.writer(csv)
-    writer.writeroq([name, position, datetime.now()])
+    writer.writerow([name, position, datetime.now()])
